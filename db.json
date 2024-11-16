@@ -1,0 +1,154 @@
+{
+    "packages": [
+      {
+        "id": 1,
+        "name": "Paket Internet Harian",
+        "description": "Kuota Internet 2GB/Hari"
+      },
+      {
+        "id": 2,
+        "name": "Paket Internet Mingguan",
+        "description": "Kuota Internet 10GB/Minggu"
+      },
+      {
+        "id": 3,
+        "name": "Paket Internet Bulanan",
+        "description": "Kuota Internet 15GB/Bulan"
+      },
+      {
+        "id": 4,
+        "name": "Paket Internet Nonton",
+        "description": "Kuota Nonton Seharian"
+      },
+      {
+        "id": 5,
+        "name": "Paket Internet Unlimited",
+        "description": "Kuota Unlimited dalam 1 Hari"
+      },
+      {
+        "id": 6,
+        "name": "Paket Internet Ketengan",
+        "description": "Kuota Internet 500MB"
+      }
+    ],
+    "package_variants": [
+        {
+            "id": 1, 
+            "package_id": 1, 
+            "var": "1 hari",
+            "kuota": "2GB",
+            "price": "Rp 10.000"
+        },
+        {
+            "id": 2, 
+            "package_id": 1, 
+            "var": "2 hari",
+            "kuota": "4GB",
+            "price": "Rp 20.000"
+        },
+        {
+            "id": 3, 
+            "package_id": 1, 
+            "var": "3 hari",
+            "kuota": "6GB",
+            "price": "Rp 30.000"
+        },
+        {
+            "id": 4, 
+            "package_id": 2, 
+            "var": "1 Minggu",
+            "kuota": "10GB",
+            "price": "Rp 45.000"
+        },
+        {
+            "id": 5, 
+            "package_id": 2, 
+            "var": "2 Minggu",
+            "kuota": "20GB",
+            "price": "Rp 90.000"
+        },
+        {
+            "id": 6, 
+            "package_id": 2, 
+            "var": "3 Minggu",
+            "kuota": "30GB",
+            "price": "Rp 125.000"
+        },
+        {
+            "id": 7, 
+            "package_id": 3, 
+            "var": "1 Bulan",
+            "kuota": "15GB",
+            "price": "Rp 80.000"
+        },
+        {
+            "id": 8, 
+            "package_id": 3, 
+            "var": "2 Bulan",
+            "kuota": "30GB",
+            "price": "Rp 160.000"
+        },
+        {
+            "id": 9, 
+            "package_id": 3, 
+            "var": "3 Bulan",
+            "kuota": "45GB",
+            "price": "Rp 225.000"
+        },
+        {
+            "id": 10, 
+            "package_id": 4, 
+            "var": "1 Hari",
+            "kuota": "Unlimited",
+            "price": "Rp 30.000"
+        },
+        {
+            "id": 11, 
+            "package_id": 4, 
+            "var": "3 Hari",
+            "kuota": "Unlimited",
+            "price": "Rp 80.000"
+        },
+        {
+            "id": 12, 
+            "package_id": 5, 
+            "var": "1 Hari",
+            "kuota": "Unlimited",
+            "price": "Rp 50.000"
+        },
+        {
+            "id": 13, 
+            "package_id": 6, 
+            "var": "500MB",
+            "kuota": "500MB",
+            "price": "Rp 8.000"
+        },
+        {
+            "id": 14, 
+            "package_id": 6, 
+            "var": "800MB",
+            "kuota": "800MB",
+            "price": "Rp 10.000"
+        }
+    ],
+    "user":[
+        {
+            "id": 1,
+            "name": "Agus",
+            "phone_number": "081234567890",
+            "password": "123"
+        },
+        {
+            "id": 2,
+            "name": "Lala",
+            "phone_number": "081010101010",
+            "password": "456"
+        },
+        {
+            "id": 3,
+            "name": "Cici",
+            "phone_number": "080101010101",
+            "password": "678"
+        }
+    ]
+  }

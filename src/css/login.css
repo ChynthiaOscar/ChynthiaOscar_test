@@ -1,0 +1,87 @@
+@keyframes glowing {
+    0% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+}
+
+/* Phone size */
+@media only screen and (max-width: 480px) {
+  .login-card {
+    width: auto;
+    padding: 8%;
+    height: auto;
+  }
+  
+  .login-title {
+    font-size: 24px;
+  }
+  
+  .login-description {
+    font-size: 12px;
+  }
+}
+
+/* Tablet size */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .login-card {
+    width: 70%;
+    padding: 10%;
+  }
+  
+  .login-title {
+    font-size: 28px;
+  }
+  
+  .login-description {
+    font-size: 13px;
+  }
+}
+
+/* Desktop size */
+@media only screen and (min-width: 769px) {
+  .login-card {
+    width: 50%;
+    padding: 10%;
+  }
+  
+  .login-title {
+    font-size: 32px;
+  }
+  
+  .login-description {
+    font-size: 14px;
+  }
+}
+
+.login-card {
+  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.5);
+  animation: glowing 10s infinite;
+}
+
+.login-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2ba6ff;
+}
+
+.login-description {
+  font-size: 14px;
+  margin-bottom: 2%;
+}
+
+.login-button {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #FFFFFF;
+  background: #2ba6ff;
+  padding: 3%;
+  margin-bottom: 5%;
+  border-radius: 50px;
+}

@@ -1,0 +1,107 @@
+
+.transaction-page {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background-color: #2ba6ff;
+    opacity: 1; 
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .transaction-card {
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 30px 10px rgba(225, 221, 255, 0.5);
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .transaction-title {
+    color: #2ba6ff;
+    font-size: 24px;
+  }
+  
+  .dropdown-button {
+    width: 100%; 
+    max-width: 250px;
+  }
+  
+  .pay-button {
+    width: 100%; 
+    max-width: 200px;
+    font-size: 1.2rem;
+    padding: 18px 0;
+    color: #ffffff;
+    background: #2ba6ff;
+    margin-bottom: 5%;
+    border-radius: 20px;
+  }
+  
+  /* Phone size */
+  @media only screen and (max-width: 480px) {
+    .transaction-card {
+      width: 90%; 
+      padding: 10px;
+    }
+  
+    .transaction-title {
+      font-size: 18px;
+    }
+  
+    .dropdown-button {
+      width: 100%; 
+    }
+  
+    .pay-button {
+      width: 100%;  
+      max-width: none; 
+    }
+  }
+  
+  /* Tablet size */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .transaction-card {
+      width: 80%;
+      padding: 15px;
+    }
+  
+    .transaction-title {
+      font-size: 22px;
+    }
+  
+    .dropdown-button {
+      width: 100%;
+    }
+  
+    .pay-button {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+  
+  /* Desktop size */
+  @media only screen and (min-width: 769px) {
+    .transaction-card {
+      width: 45%; 
+      padding: 20px;
+    }
+  
+    .transaction-title {
+      font-size: 24px;
+    }
+  
+    .dropdown-button {
+      width: 100%;
+      max-width: 250px;
+    }
+  
+    .pay-button {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+  
